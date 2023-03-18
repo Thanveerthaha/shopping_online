@@ -1,0 +1,147 @@
+.navbar .navbar-nav .nav-item a{
+    padding: 15px;
+}
+.nav-link{
+  position: relative;
+  text-decoration: none;
+  font-family: "poppins" , sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  
+}
+.nav-link:hover{
+  color: blueviolet;
+}
+.nav-link:after{
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 10px;
+  transition: 0.3s;
+}
+
+.nav-link:hover:after{
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-but{
+    padding: 10px;
+}
+.fa-solid {
+    color: rgb(19, 208, 225);
+  }
+
+  .d-block{
+    height: 750px;
+  }
+ 
+
+#carouselExampleCaptions{
+  margin-top: 60px;
+}
+
+#carousel-img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+#card-img{
+  max-width: 100%;
+  height: auto
+
+}
+
+ #cards{
+  margin-top: 80px;
+ }
+
+ #head{
+  margin-top: 60px;
+ }
+
+ #flash{
+  font-family: Cormorant-Italic, Serif, Sans-Serif;
+  font-style: italic;
+  font-weight: 500;
+  
+  
+ }
+ #head-nav{
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ #img-fluid{
+  max-width: 100%;
+  height: auto;
+ }
+
+
+ #top-bran{
+  margin-top: 100px;
+ }
+
+ #accord{
+  margin-top: 100px;
+ }
+
+ .site-footer{
+  padding: 5em 0;
+  background: #090909;
+  font-size: 14px;
+  color: rgb(243, 236, 236);
+  margin-top: 80px;
+}
+.site-footer p:last-child{
+  margin-bottom: 0;
+}  
+
+.site-footer a{
+  color:#fff;
+  border-bottom:1px solid transparent;
+}
+
+.site-footer a:hover{
+  color:  #00ccff;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.site-footer h2{
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #fff;
+}
+
+.site-footer .footer-link li{
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.footer-social a {
+  line-height: 0;
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.footer-social .fa {
+  margin-top: 7px;
+}
+
+
+
+
+#title{
+  margin-left: 60px;
+}
